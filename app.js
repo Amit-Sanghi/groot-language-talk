@@ -23,6 +23,7 @@ function clickHandler(){
         var translatedText = json.contents.translated
         outputtxt.innerText = translatedText
     })
+    .catch(errorHandler)
 
 }
 
